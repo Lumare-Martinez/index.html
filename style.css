@@ -1,0 +1,188 @@
+.bg{
+
+font-family: latha;
+color:white;
+background: linear-gradient(
+    rgba(0,0,0,0.65), rgba(0, 0, 0 , 0.65), rgba(0,0,0,0.38),rgba(0, 0, 0, 0)
+    )
+    ,url(foodd.jpg) no-repeat;
+background-size: cover;
+height:1000px;
+
+}
+body{
+    margin:0px;
+
+}
+li::marker{
+    color: white;
+}
+.box{
+width:900px;
+float: right;
+border:1px solid black;
+
+}
+.footer-div{
+    background-color: black;
+}
+.site-footer{
+    background-color: black;width: 1200px; margin:auto;margin-top: 0px;
+}
+.impressum{
+    width: 15%;
+}
+.impressum h2{
+    color: white;
+}
+
+.impressum1{
+    width: 25%;
+}
+.impressum1 h2{
+      color: white;
+}
+.form{
+  width: 428px;
+
+  padding: 20px;
+}
+
+input {
+  font-family: 'PT Sans Narrow';
+  font-size: 12px;
+}
+
+.info{
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.info input {
+  display: block;
+  width: 300px;
+  height: 30px;
+  border: 0;
+  border-radius: 3px;
+  margin: 0 0 10px 0;
+  padding: 12px 10px;
+  background: #fff;
+}
+
+.info input:last-child {
+  margin: 0;
+}
+
+.info input:focus {
+  background: #eee;
+  outline: none;
+}
+
+input[type="submit"]{
+  vertical-align: top;
+  height: 73px;
+  width: 98px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 3px;
+  background: pink;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  background: linear-gradient(45deg, #FF6C54, #FFA754);
+}
+
+input[type="submit"]:hover{
+  background: linear-gradient(180deg, #FF6C54, #FFA754);
+}
+.footer-div{
+    display: inline-flex;width: 100%;
+}
+footer ul li a {
+    color: white ;
+    text-decoration: none;
+}
+.box ul li{
+
+width: 120px;
+float:left;
+margin: 10px auto;
+text-align: center;
+
+
+}
+
+.box ul li a{text-decoration: none;
+    color:darkgray;
+    
+}
+
+.box ul li:hover{background-color: gray;
+}
+
+.box ul li a:hover{color: white;
+}
+
+.links{
+    
+width: 300px;
+height: 600px;
+background-color: black;
+opacity: 0.9;
+padding: 55px;
+}
+
+.links h1{
+
+text-align: center;
+text-transform: uppercase;
+font-weight: 100px;
+
+}
+.links h4{
+   
+text-align: justify;
+color:darkgray;
+font-weight: normal;
+
+} 
+
+.links h2{
+
+text-align: center;
+text-transform: uppercase;
+font-weight: normal;
+margin:40px auto;
+
+}
+
+.button form, input[type="button"]{
+    
+    background-color: black;
+    color:white;
+    padding: 10px;
+    margin: -14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text align:center;
+}
+form, input[type="button"]:hover{background-color: gray;
+}
+
+.bar{
+    
+width: 98.86%;
+padding-top: 40px;
+border: none solid black;
+background-color: #000;
+position: absolute;
+box-shadow: 12px 20px 90px;
+opacity: 0.9;
+
+
+}
+
+
+
